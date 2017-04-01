@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="line-analyze-rev" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="dist/line-analyze-rev" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="dist" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="dist/line-analyze-rev" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="dist" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Ofast -Os" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc -static-libstdc++" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-D_WIN32=1" />
+			<Add directory="src/include" />
+			<Add directory="srclibs" />
+			<Add directory="srclibs/third_party" />
+			<Add directory="srclibs/third_party/minizip" />
+			<Add directory="srclibs/third_party/tmpfileplus" />
+			<Add directory="srclibs/xlsw" />
+			<Add directory="srclibs/xlsxwriter" />
+			<Add directory="srclibs/xlsxwriter/third_party" />
+			<Add directory="srclibs/zlib" />
+		</Compiler>
+		<Unit filename="src/DateTime.cpp" />
+		<Unit filename="src/Entry.cpp" />
+		<Unit filename="src/LineRecord.cpp" />
+		<Unit filename="src/LineWireSI.cpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/include/DateTime.h" />
+		<Unit filename="src/include/Entry.h" />
+		<Unit filename="src/include/LineRecord.h" />
+		<Unit filename="src/include/LineWireSI.h" />
+		<Unit filename="src/include/Linterp.h" />
+		<Unit filename="src/include/World.h" />
+		<Unit filename="src/include/config.hpp" />
+		<Unit filename="src/include/literals.h" />
+		<Unit filename="src/include/output.h" />
+		<Unit filename="src/include/utils.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/output.cpp" />
+		<Unit filename="src/utils.cpp" />
+		<Unit filename="srclibs/third_party/minizip/crypt.h" />
+		<Unit filename="srclibs/third_party/minizip/ioapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/minizip/ioapi.h" />
+		<Unit filename="srclibs/third_party/minizip/iowin32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/minizip/iowin32.h" />
+		<Unit filename="srclibs/third_party/minizip/mztools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/minizip/mztools.h" />
+		<Unit filename="srclibs/third_party/minizip/unzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/minizip/unzip.h" />
+		<Unit filename="srclibs/third_party/minizip/zip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/minizip/zip.h" />
+		<Unit filename="srclibs/third_party/tmpfileplus/tmpfileplus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/third_party/tmpfileplus/tmpfileplus.h" />
+		<Unit filename="srclibs/xlsw/app.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/chart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/content_types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/custom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/drawing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/format.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/hash_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/packager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/relationships.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/shared_strings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/styles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/theme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/utility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/workbook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/worksheet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsw/xmlwriter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/xlsxwriter/app.h" />
+		<Unit filename="srclibs/xlsxwriter/chart.h" />
+		<Unit filename="srclibs/xlsxwriter/common.h" />
+		<Unit filename="srclibs/xlsxwriter/content_types.h" />
+		<Unit filename="srclibs/xlsxwriter/core.h" />
+		<Unit filename="srclibs/xlsxwriter/custom.h" />
+		<Unit filename="srclibs/xlsxwriter/drawing.h" />
+		<Unit filename="srclibs/xlsxwriter/format.h" />
+		<Unit filename="srclibs/xlsxwriter/hash_table.h" />
+		<Unit filename="srclibs/xlsxwriter/packager.h" />
+		<Unit filename="srclibs/xlsxwriter/relationships.h" />
+		<Unit filename="srclibs/xlsxwriter/shared_strings.h" />
+		<Unit filename="srclibs/xlsxwriter/styles.h" />
+		<Unit filename="srclibs/xlsxwriter/theme.h" />
+		<Unit filename="srclibs/xlsxwriter/third_party/ioapi.h" />
+		<Unit filename="srclibs/xlsxwriter/third_party/queue.h" />
+		<Unit filename="srclibs/xlsxwriter/third_party/tmpfileplus.h" />
+		<Unit filename="srclibs/xlsxwriter/third_party/tree.h" />
+		<Unit filename="srclibs/xlsxwriter/third_party/zip.h" />
+		<Unit filename="srclibs/xlsxwriter/utility.h" />
+		<Unit filename="srclibs/xlsxwriter/workbook.h" />
+		<Unit filename="srclibs/xlsxwriter/worksheet.h" />
+		<Unit filename="srclibs/xlsxwriter/xlsxwriter.h" />
+		<Unit filename="srclibs/xlsxwriter/xmlwriter.h" />
+		<Unit filename="srclibs/zlib/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/crc32.h" />
+		<Unit filename="srclibs/zlib/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/deflate.h" />
+		<Unit filename="srclibs/zlib/gzclose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/gzguts.h" />
+		<Unit filename="srclibs/zlib/gzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/gzread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/gzwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/inffast.h" />
+		<Unit filename="srclibs/zlib/inffixed.h" />
+		<Unit filename="srclibs/zlib/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/inflate.h" />
+		<Unit filename="srclibs/zlib/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/inftrees.h" />
+		<Unit filename="srclibs/zlib/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/trees.h" />
+		<Unit filename="srclibs/zlib/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/zconf.h" />
+		<Unit filename="srclibs/zlib/zlib.h" />
+		<Unit filename="srclibs/zlib/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srclibs/zlib/zutil.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

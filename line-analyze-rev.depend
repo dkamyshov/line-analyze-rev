@@ -1,0 +1,1656 @@
+# depslib dependency file v1.0
+1490823141 source:c:\coding\cpp\line-analyze-rev\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+	<string>
+	<math.h>
+	<cmath>
+	<fstream>
+	<exception>
+	"config.hpp"
+	"utils.h"
+	"Linterp.h"
+	"DateTime.h"
+	"DiscretePower.h"
+	"Entry.h"
+	"World.h"
+	"xlsxwriter.h"
+
+1490819172 c:\coding\cpp\line-analyze-rev\config.hpp
+
+1490819986 c:\coding\cpp\line-analyze-rev\utils.h
+	"config.hpp"
+	<string>
+	<vector>
+	<memory>
+
+1490724437 c:\coding\cpp\line-analyze-rev\datetime.h
+	"config.hpp"
+	<stdio.h>
+	<string>
+
+1490798552 c:\coding\cpp\line-analyze-rev\discretepower.h
+	"config.hpp"
+	"LineWireSI.h"
+	<stdio.h>
+	<string>
+
+1490823658 c:\coding\cpp\line-analyze-rev\entry.h
+	<stdio.h>
+	<string>
+	<vector>
+	"DateTime.h"
+	"LineWireSI.h"
+	"World.h"
+
+1490812816 c:\coding\cpp\line-analyze-rev\linewiresi.h
+	"config.hpp"
+	<vector>
+	<math.h>
+
+1490818929 c:\coding\cpp\line-analyze-rev\linterp.h
+
+1490822081 c:\coding\cpp\line-analyze-rev\world.h
+	"config.hpp"
+	<string>
+	"stdio.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter.h
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\workbook.h
+	<stdint.h>
+	<stdio.h>
+	<errno.h>
+	"worksheet.h"
+	"chart.h"
+	"shared_strings.h"
+	"hash_table.h"
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\worksheet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"shared_strings.h"
+	"chart.h"
+	"drawing.h"
+	"common.h"
+	"format.h"
+	"utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\shared_strings.h
+	<string.h>
+	<stdint.h>
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\common.h
+	<time.h>
+	"third_party/queue.h"
+	"third_party/tree.h"
+	<stdarg.h>
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\third_party\queue.h
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\third_party\tree.h
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\chart.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+	"format.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\format.h
+	<stdint.h>
+	<string.h>
+	"hash_table.h"
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\hash_table.h
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\drawing.h
+	<stdint.h>
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\utility.h
+	<stdint.h>
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\app.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/app.h"
+	"xlsxwriter/utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\xmlwriter.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\app.h
+	<stdint.h>
+	<string.h>
+	"workbook.h"
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\chart.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/chart.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\content_types.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/content_types.h"
+	"xlsxwriter/utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\content_types.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\core.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/core.h"
+	"xlsxwriter/utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\core.h
+	<stdint.h>
+	"workbook.h"
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\custom.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/custom.h"
+	"xlsxwriter/utility.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\custom.h
+	<stdint.h>
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\drawing.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/common.h"
+	"xlsxwriter/drawing.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\format.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\hash_table.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	"xlsxwriter/hash_table.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\packager.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+	"xlsxwriter/utility.h"
+	<windows.h>
+	"../third_party/minizip/iowin32.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\packager.h
+	<stdint.h>
+	"third_party/zip.h"
+	"common.h"
+	"workbook.h"
+	"worksheet.h"
+	"shared_strings.h"
+	"app.h"
+	"core.h"
+	"custom.h"
+	"theme.h"
+	"styles.h"
+	"format.h"
+	"content_types.h"
+	"relationships.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\third_party\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1484501380 c:\coding\cpp\line-analyze-rev\zlib\zlib.h
+	"zconf.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\third_party\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\theme.h
+	<stdint.h>
+	"common.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\styles.h
+	<stdint.h>
+	"format.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\relationships.h
+	<stdint.h>
+	"common.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\relationships.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/relationships.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\shared_strings.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/shared_strings.h"
+	"xlsxwriter/utility.h"
+	<ctype.h>
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\styles.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/styles.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\theme.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/theme.h"
+	"xlsxwriter/utility.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\utility.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	"xlsxwriter/utility.h"
+	"xlsxwriter/third_party/tmpfileplus.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\xlsxwriter\third_party\tmpfileplus.h
+	<stdio.h>
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\workbook.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\worksheet.c
+	<ctype.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/relationships.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\xlsw\xmlwriter.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"xlsxwriter/xmlwriter.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\adler32.c
+	"zutil.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\compress.c
+	"zlib.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1335741492 c:\coding\cpp\line-analyze-rev\zlib\crc32.h
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\deflate.c
+	"deflate.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\zlib\deflate.h
+	"zutil.h"
+
+1266106368 source:c:\coding\cpp\line-analyze-rev\zlib\gzclose.c
+	"gzguts.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\zlib\gzguts.h
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<limits.h>
+	<fcntl.h>
+	<stddef.h>
+	<io.h>
+	<windows.h>
+	<errno.h>
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\gzlib.c
+	"gzguts.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\gzread.c
+	"gzguts.h"
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\gzwrite.c
+	"gzguts.h"
+	<stdarg.h>
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1271650526 c:\coding\cpp\line-analyze-rev\zlib\inftrees.h
+
+1483256230 c:\coding\cpp\line-analyze-rev\zlib\inflate.h
+
+1271650561 c:\coding\cpp\line-analyze-rev\zlib\inffast.h
+
+1317871952 c:\coding\cpp\line-analyze-rev\zlib\inffixed.h
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1484500034 source:c:\coding\cpp\line-analyze-rev\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1271611958 c:\coding\cpp\line-analyze-rev\zlib\trees.h
+
+1483202957 source:c:\coding\cpp\line-analyze-rev\zlib\uncompr.c
+	"zlib.h"
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\zlib\zutil.c
+	"zutil.h"
+	"gzguts.h"
+	<stdlib.h>
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\minizip\iowin32.h
+	<windows.h>
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\minizip\ioapi.c
+	"ioapi.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\minizip\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\minizip\iowin32.c
+	<stdlib.h>
+	"zlib.h"
+	"ioapi.h"
+	"iowin32.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\minizip\mztools.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\minizip\unzip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\minizip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\minizip\crypt.h
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\minizip\zip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"zlib.h"
+	"zip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\minizip\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736231 source:c:\coding\cpp\line-analyze-rev\third_party\tmpfileplus\tmpfileplus.c
+	"tmpfileplus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unistd.h>
+
+1485736231 c:\coding\cpp\line-analyze-rev\third_party\tmpfileplus\tmpfileplus.h
+	<stdio.h>
+
+1490940738 source:c:\coding\cpp\line-analyze-rev\src\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+	<string>
+	<fstream>
+	<exception>
+	"config.hpp"
+	"utils.h"
+	"Linterp.h"
+	"DateTime.h"
+	"LineRecord.h"
+	"Entry.h"
+	"World.h"
+	"output.h"
+	"xlsxwriter.h"
+
+1490870296 c:\coding\cpp\line-analyze-rev\src\include\config.hpp
+
+1490981709 c:\coding\cpp\line-analyze-rev\src\include\utils.h
+	"config.hpp"
+	<string>
+	<vector>
+
+1490981566 c:\coding\cpp\line-analyze-rev\src\include\literals.h
+
+1490870150 c:\coding\cpp\line-analyze-rev\src\include\linterp.h
+	"config.hpp"
+
+1490942328 c:\coding\cpp\line-analyze-rev\src\include\datetime.h
+	"config.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1490908349 c:\coding\cpp\line-analyze-rev\src\include\discretepower.h
+	"config.hpp"
+	"LineWireSI.h"
+	<stdio.h>
+	<string>
+
+1490942614 c:\coding\cpp\line-analyze-rev\src\include\linewiresi.h
+	<stdlib.h>
+	<vector>
+	"config.hpp"
+
+1490942556 c:\coding\cpp\line-analyze-rev\src\include\entry.h
+	<stdio.h>
+	<string>
+	<vector>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"utils.h"
+	"DateTime.h"
+	"LineWireSI.h"
+	"World.h"
+	"LineRecord.h"
+
+1490981601 c:\coding\cpp\line-analyze-rev\src\include\world.h
+	<string>
+	<vector>
+	<stdio.h>
+	<fstream>
+	"config.hpp"
+	"utils.h"
+	"literals.h"
+	"LineWireSI.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\xlsxwriter.h
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\workbook.h
+	<stdint.h>
+	<stdio.h>
+	<errno.h>
+	"worksheet.h"
+	"chart.h"
+	"shared_strings.h"
+	"hash_table.h"
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\worksheet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"shared_strings.h"
+	"chart.h"
+	"drawing.h"
+	"common.h"
+	"format.h"
+	"utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\shared_strings.h
+	<string.h>
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\common.h
+	<time.h>
+	"third_party/queue.h"
+	"third_party/tree.h"
+	<stdarg.h>
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\third_party\queue.h
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\third_party\tree.h
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\chart.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+	"format.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\format.h
+	<stdint.h>
+	<string.h>
+	"hash_table.h"
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\hash_table.h
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\drawing.h
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\utility.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\ioapi.c
+	"ioapi.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1484501380 c:\coding\cpp\line-analyze-rev\srclibs\zlib\zlib.h
+	"zconf.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\srclibs\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\iowin32.c
+	<stdlib.h>
+	"zlib.h"
+	"ioapi.h"
+	"iowin32.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\iowin32.h
+	<windows.h>
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\mztools.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\unzip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\crypt.h
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\zip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"zlib.h"
+	"zip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\minizip\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\third_party\tmpfileplus\tmpfileplus.c
+	"tmpfileplus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unistd.h>
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\third_party\tmpfileplus\tmpfileplus.h
+	<stdio.h>
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\app.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/app.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\xmlwriter.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\app.h
+	<stdint.h>
+	<string.h>
+	"workbook.h"
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\chart.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/chart.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\content_types.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/content_types.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\content_types.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\core.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/core.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\core.h
+	<stdint.h>
+	"workbook.h"
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\custom.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/custom.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\custom.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\drawing.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/common.h"
+	"xlsxwriter/drawing.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\format.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\hash_table.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	"xlsxwriter/hash_table.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\packager.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+	"xlsxwriter/utility.h"
+	<windows.h>
+	"../third_party/minizip/iowin32.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\packager.h
+	<stdint.h>
+	"third_party/zip.h"
+	"common.h"
+	"workbook.h"
+	"worksheet.h"
+	"shared_strings.h"
+	"app.h"
+	"core.h"
+	"custom.h"
+	"theme.h"
+	"styles.h"
+	"format.h"
+	"content_types.h"
+	"relationships.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\third_party\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\third_party\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\theme.h
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\styles.h
+	<stdint.h>
+	"format.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\relationships.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\relationships.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/relationships.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\shared_strings.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/shared_strings.h"
+	"xlsxwriter/utility.h"
+	<ctype.h>
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\styles.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/styles.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\theme.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/theme.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\utility.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	"xlsxwriter/utility.h"
+	"xlsxwriter/third_party/tmpfileplus.h"
+
+1485736232 c:\coding\cpp\line-analyze-rev\srclibs\xlsxwriter\third_party\tmpfileplus.h
+	<stdio.h>
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\workbook.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\worksheet.c
+	<ctype.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/relationships.h"
+
+1485736232 source:c:\coding\cpp\line-analyze-rev\srclibs\xlsw\xmlwriter.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"xlsxwriter/xmlwriter.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\adler32.c
+	"zutil.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\srclibs\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\compress.c
+	"zlib.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1335741492 c:\coding\cpp\line-analyze-rev\srclibs\zlib\crc32.h
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\deflate.c
+	"deflate.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\srclibs\zlib\deflate.h
+	"zutil.h"
+
+1266106368 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\gzclose.c
+	"gzguts.h"
+
+1483256230 c:\coding\cpp\line-analyze-rev\srclibs\zlib\gzguts.h
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<limits.h>
+	<fcntl.h>
+	<stddef.h>
+	<io.h>
+	<windows.h>
+	<errno.h>
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\gzlib.c
+	"gzguts.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\gzread.c
+	"gzguts.h"
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\gzwrite.c
+	"gzguts.h"
+	<stdarg.h>
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1271650526 c:\coding\cpp\line-analyze-rev\srclibs\zlib\inftrees.h
+
+1483256230 c:\coding\cpp\line-analyze-rev\srclibs\zlib\inflate.h
+
+1271650562 c:\coding\cpp\line-analyze-rev\srclibs\zlib\inffast.h
+
+1317871952 c:\coding\cpp\line-analyze-rev\srclibs\zlib\inffixed.h
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1483256230 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1484500034 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1271611958 c:\coding\cpp\line-analyze-rev\srclibs\zlib\trees.h
+
+1483202958 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\uncompr.c
+	"zlib.h"
+
+1484501380 source:c:\coding\cpp\line-analyze-rev\srclibs\zlib\zutil.c
+	"zutil.h"
+	"gzguts.h"
+	<stdlib.h>
+
+1490869469 c:\coding\cpp\line-analyze-rev\src\output.h
+	<vector>
+	"config.hpp"
+	"Entry.h"
+	"World.h"
+	"utils.h"
+
+1490982504 source:c:\coding\cpp\line-analyze-rev\src\output.cpp
+	<vector>
+	<string>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"World.h"
+	"Entry.h"
+	"utils.h"
+	"LineRecord.h"
+	"xlsxwriter.h"
+
+1490981633 source:c:\coding\cpp\line-analyze-rev\src\world.cpp
+	"World.h"
+	<string>
+	<vector>
+	<stdio.h>
+	<fstream>
+	"config.hpp"
+	"utils.h"
+	"literals.h"
+	"LineWireSI.h"
+
+1490981718 source:c:\coding\cpp\line-analyze-rev\src\utils.cpp
+	"config.hpp"
+	"utils.h"
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	"literals.h"
+
+1490874520 c:\coding\cpp\line-analyze-rev\src\include\output.h
+	<vector>
+	"config.hpp"
+	"Entry.h"
+	"World.h"
+
+1490941552 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\utils.cpp
+	"config.hpp"
+	"utils.h"
+	<string>
+	<vector>
+	<memory>
+	<algorithm>
+	"literals.h"
+
+1490870296 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\config.hpp
+
+1490941246 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\utils.h
+	"config.hpp"
+	<string>
+	<vector>
+
+1490908076 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\literals.h
+
+1490908616 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\world.cpp
+	"World.h"
+
+1490942633 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\world.h
+	<string>
+	<vector>
+	<stdio.h>
+	<fstream>
+	"config.hpp"
+	"utils.h"
+	"literals.h"
+	"LineWireSI.h"
+
+1490942613 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\linewiresi.h
+	<stdlib.h>
+	<vector>
+	"config.hpp"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\ioapi.c
+	"ioapi.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1484501380 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\zlib.h
+	"zconf.h"
+
+1483256230 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\iowin32.c
+	<stdlib.h>
+	"zlib.h"
+	"ioapi.h"
+	"iowin32.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\iowin32.h
+	<windows.h>
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\mztools.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\unzip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\unzip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"zlib.h"
+	"unzip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\crypt.h
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\zip.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"zlib.h"
+	"zip.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"crypt.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\minizip\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\tmpfileplus\tmpfileplus.c
+	"tmpfileplus.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<io.h>
+	<unistd.h>
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\third_party\tmpfileplus\tmpfileplus.h
+	<stdio.h>
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\app.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/app.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\xmlwriter.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\common.h
+	<time.h>
+	"third_party/queue.h"
+	"third_party/tree.h"
+	<stdarg.h>
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\third_party\queue.h
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\third_party\tree.h
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\app.h
+	<stdint.h>
+	<string.h>
+	"workbook.h"
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\workbook.h
+	<stdint.h>
+	<stdio.h>
+	<errno.h>
+	"worksheet.h"
+	"chart.h"
+	"shared_strings.h"
+	"hash_table.h"
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\worksheet.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"shared_strings.h"
+	"chart.h"
+	"drawing.h"
+	"common.h"
+	"format.h"
+	"utility.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\shared_strings.h
+	<string.h>
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\chart.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+	"format.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\format.h
+	<stdint.h>
+	<string.h>
+	"hash_table.h"
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\hash_table.h
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\drawing.h
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\utility.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\chart.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/chart.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\content_types.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/content_types.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\content_types.h
+	<stdint.h>
+	<string.h>
+	"common.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\core.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/core.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\core.h
+	<stdint.h>
+	"workbook.h"
+	"common.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\custom.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/custom.h"
+	"xlsxwriter/utility.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\custom.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\drawing.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/common.h"
+	"xlsxwriter/drawing.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\format.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\hash_table.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	"xlsxwriter/hash_table.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\packager.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+	"xlsxwriter/utility.h"
+	<windows.h>
+	"../third_party/minizip/iowin32.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\packager.h
+	<stdint.h>
+	"third_party/zip.h"
+	"common.h"
+	"workbook.h"
+	"worksheet.h"
+	"shared_strings.h"
+	"app.h"
+	"core.h"
+	"custom.h"
+	"theme.h"
+	"styles.h"
+	"format.h"
+	"content_types.h"
+	"relationships.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\third_party\zip.h
+	"zlib.h"
+	"ioapi.h"
+	"bzlib.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\third_party\ioapi.h
+	<stdio.h>
+	<stdlib.h>
+	"zlib.h"
+	<stdint.h>
+	"mz64conf.h"
+	"stdint.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\theme.h
+	<stdint.h>
+	"common.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\styles.h
+	<stdint.h>
+	"format.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\relationships.h
+	<stdint.h>
+	"common.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\relationships.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/relationships.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\shared_strings.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/shared_strings.h"
+	"xlsxwriter/utility.h"
+	<ctype.h>
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\styles.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/styles.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\theme.c
+	<string.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/theme.h"
+	"xlsxwriter/utility.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\utility.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	"xlsxwriter/utility.h"
+	"xlsxwriter/third_party/tmpfileplus.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\third_party\tmpfileplus.h
+	<stdio.h>
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\workbook.c
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/packager.h"
+	"xlsxwriter/hash_table.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\worksheet.c
+	<ctype.h>
+	"xlsxwriter/xmlwriter.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+	"xlsxwriter/relationships.h"
+
+1485736232 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsw\xmlwriter.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"xlsxwriter/xmlwriter.h"
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\adler32.c
+	"zutil.h"
+
+1483256230 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\compress.c
+	"zlib.h"
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1335741492 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\crc32.h
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\deflate.c
+	"deflate.h"
+
+1483256230 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\deflate.h
+	"zutil.h"
+
+1266106368 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\gzclose.c
+	"gzguts.h"
+
+1483256230 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\gzguts.h
+	<stdio.h>
+	"zlib.h"
+	<string.h>
+	<stdlib.h>
+	<limits.h>
+	<fcntl.h>
+	<stddef.h>
+	<io.h>
+	<windows.h>
+	<errno.h>
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\gzlib.c
+	"gzguts.h"
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\gzread.c
+	"gzguts.h"
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\gzwrite.c
+	"gzguts.h"
+	<stdarg.h>
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1271650526 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inftrees.h
+
+1483256230 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inflate.h
+
+1271650562 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inffast.h
+
+1317871952 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inffixed.h
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1483256230 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1484500034 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1271611958 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\trees.h
+
+1483202958 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\uncompr.c
+	"zlib.h"
+
+1484501380 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\zlib\zutil.c
+	"zutil.h"
+	"gzguts.h"
+	<stdlib.h>
+
+1490942520 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\datetime.cpp
+	"DateTime.h"
+	"config.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1490942326 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\datetime.h
+	"config.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1490942547 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\entry.cpp
+	"Entry.h"
+	<stdio.h>
+	<string>
+	<vector>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"utils.h"
+	"DateTime.h"
+	"LineWireSI.h"
+	"World.h"
+	"LineRecord.h"
+
+1490942554 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\entry.h
+	<stdio.h>
+	<string>
+	<vector>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"utils.h"
+	"DateTime.h"
+	"LineWireSI.h"
+	"World.h"
+	"LineRecord.h"
+
+1490942586 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\linerecord.h
+	<stdio.h>
+	<string>
+	"config.hpp"
+	"LineWireSI.h"
+
+1490940736 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\main.cpp
+	<iostream>
+	<vector>
+	<stdio.h>
+	<string>
+	<fstream>
+	<exception>
+	"config.hpp"
+	"utils.h"
+	"Linterp.h"
+	"DateTime.h"
+	"LineRecord.h"
+	"Entry.h"
+	"World.h"
+	"output.h"
+	"xlsxwriter.h"
+
+1490870150 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\linterp.h
+	"config.hpp"
+
+1490874520 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\include\output.h
+	<vector>
+	"config.hpp"
+	"Entry.h"
+	"World.h"
+
+1485736232 c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\srclibs\xlsxwriter\xlsxwriter.h
+	"xlsxwriter/workbook.h"
+	"xlsxwriter/worksheet.h"
+	"xlsxwriter/format.h"
+	"xlsxwriter/utility.h"
+
+1490941115 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\output.cpp
+	<vector>
+	<string>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"World.h"
+	"Entry.h"
+	"utils.h"
+	"LineRecord.h"
+	"xlsxwriter.h"
+
+1490942661 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\linerecord.cpp
+	"LineRecord.h"
+	<stdio.h>
+	<string>
+	<math.h>
+	"config.hpp"
+	"LineWireSI.h"
+
+1490942068 source:c:\documents and settings\Студент\Мои документы\c\line-analyze-rev\src\linewiresi.cpp
+	"LineWireSI.h"
+
+1490942522 source:c:\coding\cpp\line-analyze-rev\src\datetime.cpp
+	"DateTime.h"
+	"config.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1490942548 source:c:\coding\cpp\line-analyze-rev\src\entry.cpp
+	"Entry.h"
+	<stdio.h>
+	<string>
+	<vector>
+	<math.h>
+	<cmath>
+	"config.hpp"
+	"utils.h"
+	"DateTime.h"
+	"LineWireSI.h"
+	"World.h"
+	"LineRecord.h"
+
+1490942588 c:\coding\cpp\line-analyze-rev\src\include\linerecord.h
+	<stdio.h>
+	<string>
+	"config.hpp"
+	"LineWireSI.h"
+
+1490942662 source:c:\coding\cpp\line-analyze-rev\src\linerecord.cpp
+	"LineRecord.h"
+	<stdio.h>
+	<string>
+	<math.h>
+	"config.hpp"
+	"LineWireSI.h"
+
+1490942674 source:c:\coding\cpp\line-analyze-rev\src\linewiresi.cpp
+	"LineWireSI.h"
+	<stdlib.h>
+	<vector>
+	<math.h>
+	"config.hpp"
+

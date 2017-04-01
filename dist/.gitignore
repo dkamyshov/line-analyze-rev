@@ -1,0 +1,10 @@
+# ignore executables
+
+*.exe
+
+# ignore source ad output data
+
+*.xlsx
+*.csv
+
+*.bat
