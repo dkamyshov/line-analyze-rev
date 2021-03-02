@@ -1,3 +1,8 @@
 approx.txt
-srclibs/*
 obj/*
+CMakeFiles/*
+CMakeCache.txt
+cmake_install.cmake
+line-analyze-rev
+.DS_Store
+Makefile
